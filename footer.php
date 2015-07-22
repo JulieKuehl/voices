@@ -12,10 +12,8 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'areavoices' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'areavoices' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'areavoices' ), 'areavoices', '<a href="http://juliekuehl.com" rel="designer">Julie Kuehl</a>' ); ?>
+		<div class="copyright">
+			<?php printf( esc_html__( '&copy; Copyright ', 'areavoices' )); ?><?php the_date( 'Y' ); ?> <?php echo bloginfo( 'name' ); ?> | Area Voices
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
