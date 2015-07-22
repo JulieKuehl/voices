@@ -3,11 +3,16 @@
 }
 
 .site-header {
-
+    background-color: $color_site-primary;
 }
 
 .super-header {
+    background-color: $color_site-text;
+    color: $color_site-background;
+}
 
+.super-header a {
+    color: $color_site-background;
 }
 
 .social-links {
