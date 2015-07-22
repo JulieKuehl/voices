@@ -11,7 +11,19 @@
 }
 
 .container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#primary {
+    width: $size__site-main;
+    float: left;
+}
+
+#secondary {
+    width: $size__site-sidebar;
+    float: right;
 }
 
 a {

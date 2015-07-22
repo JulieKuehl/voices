@@ -614,6 +614,19 @@ a {
 /*--------------------------------------------------------------
 ## Sitewide
 --------------------------------------------------------------*/
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#primary {
+  width: 75%;
+  float: left; }
+
+#secondary {
+  width: 25%;
+  float: right; }
+
 a {
   text-decoration: none; }
 
@@ -621,11 +634,13 @@ a {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-  background-color: #289fba; }
+  background-color: #289fba;
+  width: 100%; }
 
 .super-header {
   background-color: #464646;
-  color: #ffffff; }
+  color: #ffffff;
+  width: 100%; }
 
 .super-header a {
   color: #ffffff; }

@@ -4,11 +4,13 @@
 
 .site-header {
     background-color: $color_site-primary;
+    width: 100%;
 }
 
 .super-header {
     background-color: $color_site-text;
     color: $color_site-background;
+    width: 100%;
 }
 
 .super-header a {
