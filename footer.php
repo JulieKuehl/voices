@@ -13,7 +13,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="copyright">
-			<?php printf( esc_html__( '&copy; Copyright ', 'areavoices' )); ?><?php the_date( 'Y' ); ?> <?php echo bloginfo( 'name' ); ?> | Area Voices
+			<?php printf( esc_html__( '&copy; Copyright ', 'areavoices' )); ?><?php the_date( 'Y' ); ?> <?php echo bloginfo( 'name' ); ?> | <a href="http://areavoices.com/">Area Voices</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
