@@ -150,3 +150,13 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Customize the "Read More" link.
+ */
+add_filter( 'the_content_more_link', 'areavoices_read_more_link' );
+function areavoices_excerpt_more($more) {
+	global $post;
+	return '<br /><button><a class="moretag button" href="'. get_permalink($post->ID) . '"> Read More</a></button>';
+}
+add_filter('excerpt_more', 'areavoices_excerpt_more');
