@@ -40,6 +40,8 @@ function areavoices_setup() {
 	 */
 	add_theme_support( 'post-thumbnails' );
 
+	add_image_size( 'featured-image', 750, 330, true );     // Featured Image size for home page
+
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'areavoices' ),

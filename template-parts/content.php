@@ -19,7 +19,7 @@
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-		<?php the_post_thumbnail(); ?>
+		<?php the_post_thumbnail( 'featured-image' ); ?>
 		<?php
 			the_excerpt( sprintf(
 				/* translators: %s: Name of current post. */
