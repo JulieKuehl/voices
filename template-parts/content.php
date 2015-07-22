@@ -13,12 +13,13 @@
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
-			<?php areavoices_posted_on(); ?>
+			<span class="dashicons dashicons-calendar-alt"></span> <?php the_time( 'j F Y' ); ?><span class="separator">|</span><span class="dashicons dashicons-admin-users"></span> <?php the_author_posts_link(); ?><span class="separator">|</span><span class="dashicons dashicons-category"></span> <?php the_category( ', ' ); ?>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
+		<?php the_post_thumbnail(); ?>
 		<?php
 			the_content( sprintf(
 				/* translators: %s: Name of current post. */
