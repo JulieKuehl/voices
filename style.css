@@ -290,7 +290,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #ffffff;
+  background: #ebebeb;
   /* Fallback for when there is no custom background color defined. */
   margin: 0; }
 
@@ -352,7 +352,7 @@ input[type="submit"] {
   input[type="button"]:hover a,
   input[type="reset"]:hover a,
   input[type="submit"]:hover a {
-    color: #ffffff; }
+    color: #ebebeb; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -360,7 +360,7 @@ input[type="submit"] {
   input[type="reset"]:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus {
-    color: #ffffff; }
+    color: #ebebeb; }
 
 input[type="text"],
 input[type="email"],
@@ -483,7 +483,7 @@ a {
   width: 1px;
   overflow: hidden; }
   .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
-    background-color: #ffffff;
+    background-color: #ebebeb;
     border-radius: 3px;
     box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
     clip: auto !important;
@@ -607,6 +607,9 @@ a {
 /*--------------------------------------------------------------
 ## Sitewide
 --------------------------------------------------------------*/
+#page {
+  background-color: #ebebeb; }
+
 .container {
   max-width: 1140px;
   margin-left: auto;
@@ -627,6 +630,9 @@ a {
   margin-left: 1em;
   margin-right: 1em; }
 
+.post article {
+  background-color: white; }
+
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
@@ -636,11 +642,11 @@ a {
 
 .super-header {
   background-color: #464646;
-  color: #ffffff;
+  color: #ebebeb;
   width: 100%; }
 
 .super-header a {
-  color: #ffffff; }
+  color: #ebebeb; }
 
 /*--------------------------------------------------------------
 ## Footer
