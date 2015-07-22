@@ -41,6 +41,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Media Queries
+
 --------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Normalize
@@ -569,7 +571,7 @@ a {
   display: block; }
 
 .hentry {
-  margin: 0 0 1.5em; }
+  margin: 0 0 2em; }
 
 .byline,
 .updated:not(.published) {
@@ -610,13 +612,16 @@ a {
 #page {
   background-color: #ebebeb; }
 
+#content {
+  padding-top: 2em; }
+
 .container {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto; }
 
 #primary {
-  width: 75%;
+  width: 72%;
   float: left; }
 
 #secondary {
@@ -730,3 +735,11 @@ object {
 
 .gallery-caption {
   display: block; }
+
+/*--------------------------------------------------------------
+# Media Queries
+--------------------------------------------------------------*/
+@media (max-width: 1000px) {
+  #primary,
+  #secondary {
+    width: 95%; } }
