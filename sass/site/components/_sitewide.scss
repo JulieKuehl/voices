@@ -21,13 +21,18 @@
 }
 
 #primary {
-    width: $size__site-main;
     float: left;
+    width: $size__site-main;
 }
 
 #secondary {
-    width: $size__site-sidebar;
     float: right;
+    width: $size__site-sidebar;
+}
+
+.hentry,
+.widget {
+    margin: 0 1em 2em;
 }
 
 a {

@@ -621,12 +621,16 @@ a {
   margin-right: auto; }
 
 #primary {
-  width: 72%;
-  float: left; }
+  float: left;
+  width: 66.667%; }
 
 #secondary {
-  width: 25%;
-  float: right; }
+  float: right;
+  width: 33.333%; }
+
+.hentry,
+.widget {
+  margin: 0 1em 2em; }
 
 a {
   text-decoration: none; }
