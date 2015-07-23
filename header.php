@@ -18,8 +18,8 @@
 <!-- Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 <!-- Stylesheet -->
-<link rel="stylesheet" href="/wp-content/themes/areavoices/style.css">
-<link rel="stylesheet" href="/wp-content/themes/areavoices/homemade_style.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/homemade_style.css">
 
 <?php wp_head(); ?>
 </head>
