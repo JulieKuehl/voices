@@ -570,9 +570,6 @@ a {
 .sticky {
   display: block; }
 
-.hentry {
-  margin: 0 0 2em; }
-
 .byline,
 .updated:not(.published) {
   display: none; }
