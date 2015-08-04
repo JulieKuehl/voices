@@ -30,14 +30,6 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
-		<div class="super-header">
-			<div class="social-links clearfix">
-				<a href="http://www.facebook.com" class="ir facebook" target="_blank">Facebook</a>
-				<a href="http://www.twitter.com" class="ir twitter" target="_blank">Twitter</a>
-				<a href="http://www.instagram.com" class="ir instagram" target="_blank">Instagram</a>
-			</div><!-- .social-links -->
-		</div><!-- .super-header -->
-
 		<div class="site-branding site-header">
 			<div class="container">
 				<div class="site-info">
@@ -47,10 +39,10 @@
 			</div><!-- .container -->
 		</div><!-- .site-branding .site-header-->
 
-<!--		<nav id="site-navigation" class="main-navigation" role="navigation">-->
-<!--			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">--><?php //esc_html_e( 'Primary Menu', 'areavoices' ); ?><!--</button>-->
-<!--			--><?php //wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-<!--		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+
+	<div id="header-banner-ad" class="banner-ad">
+		<img src="http://lorempixel.com/728/90/abstract/" role="advertising" alt="banner ad" />
+	</div>
 
 	<div id="content" class="site-content container">

@@ -3,12 +3,12 @@ Theme Name: areavoices
 Theme URI: http://underscores.me/
 Author: Julie Kuehl
 Author URI: http://juliekuehl.com
-Description: A kick-ass custom WordPress theme built on areavoices (underscores).
+Description: A kick-ass custom WordPress theme built for Area Voices.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: areavoices
-Tags:
+Tags: blog
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -609,9 +609,6 @@ a {
 #page {
   background-color: #ebebeb; }
 
-#content {
-  padding-top: 2em; }
-
 .container {
   max-width: 1140px;
   margin-left: auto;
@@ -653,6 +650,9 @@ a {
 
 .super-header a {
   color: #ebebeb; }
+
+#header-banner-ad img {
+  margin-top: 7px; }
 
 /*--------------------------------------------------------------
 ## Footer
