@@ -652,7 +652,8 @@ a {
   color: #ebebeb; }
 
 .site-info {
-  margin-bottom: -7px; }
+  margin-bottom: -7px;
+  padding-top: 2em; }
 
 #header-banner-ad img {
   margin-top: 7px; }
