@@ -33,6 +33,7 @@
 		<div class="site-branding site-header">
 			<div class="container">
 				<div class="site-info">
+					<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<p class="site-description"><?php bloginfo( 'description' ); ?></p>
 				</div><!-- .site-info -->

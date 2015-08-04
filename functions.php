@@ -131,6 +131,15 @@ add_action( 'wp_enqueue_scripts', 'areavoices_scripts' );
  */
 require get_template_directory() . '/inc/custom-header.php';
 
+$args = array(
+	'flex-width'    => true,
+	'width'         => 1000,
+	'flex-height'    => true,
+	'height'        => 250,
+	'default-image' => get_template_directory_uri() . '/images/header.jpg',
+);
+add_theme_support( 'custom-header', $args );
+
 /**
  * Custom template tags for this theme.
  */
