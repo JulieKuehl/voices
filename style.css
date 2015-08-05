@@ -556,6 +556,9 @@ a {
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
+  .widget ul,
+  .widget ol {
+    margin-left: 0; }
 
 /* Search widget. */
 .widget_search .search-submit {
@@ -694,7 +697,12 @@ a {
 /*--------------------------------------------------------------
 ## Footer
 --------------------------------------------------------------*/
+#colophon {
+  border-top: 1px solid black; }
+
 .copyright {
+  font-size: .9em;
+  padding: .5em 0;
   text-align: center; }
 
 /*--------------------------------------------------------------
