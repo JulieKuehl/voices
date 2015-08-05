@@ -239,6 +239,8 @@ textarea {
 
 h1, h2, h3, h4, h5, h6 {
   clear: both; }
+  h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
 
 p {
   margin-bottom: 1.5em; }
@@ -608,6 +610,15 @@ a {
 /*--------------------------------------------------------------
 ## Sitewide
 --------------------------------------------------------------*/
+body {
+  background-color: #d3d3d3;
+  color: #3d3d3d; }
+
+article,
+aside {
+  background-color: #ffffff;
+  padding: 2em; }
+
 #page {
   background-color: #ebebeb; }
 
@@ -629,7 +640,11 @@ a {
   margin: 0 0 2em; }
 
 a {
+  color: #de8027;
   text-decoration: none; }
+
+i {
+  margin-right: 0; }
 
 .separator {
   margin-left: 1em;
@@ -679,22 +694,25 @@ input.search-field {
 --------------------------------------------------------------*/
 .site-header {
   background-color: #289fba;
+  position: relative;
   width: 100%; }
-
-.super-header {
-  background-color: #464646;
-  color: #ebebeb;
-  width: 100%; }
-
-.super-header a {
-  color: #ebebeb; }
 
 .site-info {
-  margin-bottom: -7px;
-  padding-top: 2em; }
+  margin: 0 auto -7px;
+  padding-top: 2em;
+  text-align: center; }
+
+.site-title h1,
+.site-description h2,
+.site-logo img {
+  text-align: center; }
 
 #header-banner-ad img {
   margin-top: 7px; }
+
+.banner-ad {
+  padding: 1em 0;
+  text-align: center; }
 
 /*--------------------------------------------------------------
 ## Footer
@@ -791,5 +809,7 @@ object {
   #primary,
   #secondary {
     width: 95%; } }
-
-/*# sourceMappingURL=style.css.map */
+/*--- mobile portrait style ---*/
+@media only screen and (max-width: 419px) {
+  body .container {
+    max-width: 395px; } }

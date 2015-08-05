@@ -4,3 +4,10 @@
         width: 95%;
     }
 }
+
+/*--- mobile portrait style ---*/
+@media only screen and (max-width: 419px) {
+    body .container {
+        max-width: 395px;
+    }
+}
