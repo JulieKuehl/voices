@@ -2,19 +2,19 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    border: none;
-	border-radius: 3px;
-	background: $color__background-button;
+    border: 1px solid black;
+//	border-radius: 3px;
+	background: none;
 	color: rgba(0, 0, 0, .8);
     margin-top: 1em;
 	padding: .6em 1em .4em;
 
 	&:hover a {
-        color: $color_site-background;
+        color: $color_site-secondary;
 	}
 
 	&:active,
 	&:focus {
-        color: $color_site-background;
+        color: $color_site-secondary;
 	}
 }

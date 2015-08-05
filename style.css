@@ -344,9 +344,8 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: none;
-  border-radius: 3px;
-  background: #de8027;
+  border: 1px solid black;
+  background: none;
   color: rgba(0, 0, 0, 0.8);
   margin-top: 1em;
   padding: .6em 1em .4em; }
@@ -354,7 +353,7 @@ input[type="submit"] {
   input[type="button"]:hover a,
   input[type="reset"]:hover a,
   input[type="submit"]:hover a {
-    color: #ebebeb; }
+    color: #de8027; }
   button:active, button:focus,
   input[type="button"]:active,
   input[type="button"]:focus,
@@ -362,7 +361,7 @@ input[type="submit"] {
   input[type="reset"]:focus,
   input[type="submit"]:active,
   input[type="submit"]:focus {
-    color: #ebebeb; }
+    color: #de8027; }
 
 input[type="text"],
 input[type="email"],
