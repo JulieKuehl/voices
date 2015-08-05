@@ -616,15 +616,15 @@ a {
 
 #primary {
   float: left;
-  width: 66.667%; }
+  width: 64%; }
 
 #secondary {
   float: right;
-  width: 33.333%; }
+  width: 33%; }
 
 .hentry,
 .widget {
-  margin: 0 1em 2em; }
+  margin: 0 0 2em; }
 
 a {
   text-decoration: none; }
@@ -638,6 +638,27 @@ a {
 
 .edit-link {
   float: right; }
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  background-color: #289fba;
+  float: left;
+  padding: 1em 2em;
+  overflow: scroll;
+  width: 45%; }
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  background-color: #289fba;
+  float: right;
+  padding: 1em 2em;
+  overflow: scroll;
+  width: 45%; }
+
+.post-navigation .nav-previous::before {
+  content: "&lsaquo; "; }
 
 /*--------------------------------------------------------------
 ## Header

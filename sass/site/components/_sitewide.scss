@@ -32,7 +32,7 @@
 
 .hentry,
 .widget {
-    margin: 0 1em 2em;
+    margin: 0 0 2em;
 }
 
 a {
@@ -50,4 +50,28 @@ a {
 
 .edit-link {
     float: right;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+    background-color: $color_site-primary;
+    float: left;
+    padding: 1em 2em;
+    overflow: scroll;
+    width: 45%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+    background-color: $color_site-primary;
+    float: right;
+    padding: 1em 2em;
+    overflow: scroll;
+    width: 45%
+}
+
+.post-navigation .nav-previous::before {
+    content: "&lsaquo; ";
 }
