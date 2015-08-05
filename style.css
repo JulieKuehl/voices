@@ -657,8 +657,17 @@ a {
   overflow: scroll;
   width: 45%; }
 
+.comment-navigation .nav-next::before,
+.posts-navigation .nav-next::before,
 .post-navigation .nav-previous::before {
-  content: "&lsaquo; "; }
+  content: "\2190";
+  padding-right: .7em; }
+
+.comment-navigation .nav-next::after,
+.posts-navigation .nav-next::after,
+.post-navigation .nav-next::after {
+  content: "\2192";
+  padding-left: .7em; }
 
 /*--------------------------------------------------------------
 ## Header
