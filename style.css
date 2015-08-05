@@ -645,7 +645,7 @@ a {
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-  background-color: #289fba;
+  border: 1px solid black;
   float: left;
   padding: 1em 2em;
   overflow: scroll;
@@ -654,14 +654,14 @@ a {
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
-  background-color: #289fba;
+  border: 1px solid black;
   float: right;
   padding: 1em 2em;
   overflow: scroll;
   width: 45%; }
 
-.comment-navigation .nav-next::before,
-.posts-navigation .nav-next::before,
+.comment-navigation .nav-previous::before,
+.posts-navigation .nav-previous::before,
 .post-navigation .nav-previous::before {
   content: "\2190";
   padding-right: .7em; }
@@ -671,6 +671,9 @@ a {
 .post-navigation .nav-next::after {
   content: "\2192";
   padding-left: .7em; }
+
+input.search-field {
+  width: 100%; }
 
 /*--------------------------------------------------------------
 ## Header
@@ -789,3 +792,5 @@ object {
   #primary,
   #secondary {
     width: 95%; } }
+
+/*# sourceMappingURL=style.css.map */
