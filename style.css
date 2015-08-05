@@ -625,7 +625,9 @@ aside {
 .container {
   max-width: 1140px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em; }
 
 #primary {
   float: left;
@@ -808,7 +810,9 @@ object {
 @media (max-width: 1000px) {
   #primary,
   #secondary {
-    width: 95%; } }
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; } }
 /*--- mobile portrait style ---*/
 @media only screen and (max-width: 419px) {
   body .container {
