@@ -722,10 +722,19 @@ input.search-field {
 #colophon {
   border-top: 1px solid black; }
 
+.site-footer {
+  background-color: #464646;
+  color: #ebebeb; }
+
 .copyright {
   font-size: .9em;
   padding: .5em 0;
   text-align: center; }
+  .copyright a {
+    color: #ebebeb; }
+
+.copyright a:hover {
+  color: #de8027; }
 
 /*--------------------------------------------------------------
 # Infinite scroll
