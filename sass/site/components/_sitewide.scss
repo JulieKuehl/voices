@@ -73,9 +73,8 @@ i {
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
-    border: 1px solid black;
     float: left;
-    padding: 1em 2em;
+    padding: 1em 2em 1em 0;
     overflow: scroll;
     width: 45%;
 }
@@ -83,9 +82,8 @@ i {
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
-    border: 1px solid black;
     float: right;
-    padding: 1em 2em;
+    padding: 1em 0 1em 2em;
     overflow: scroll;
     width: 45%
 }
